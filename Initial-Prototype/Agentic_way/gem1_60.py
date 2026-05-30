@@ -12,7 +12,7 @@ import subprocess
 # In Linux/macOS: export GOOGLE_API_KEY="YOUR_API_KEY"
 # In Windows PowerShell: $env:GOOGLE_API_KEY="YOUR_API_KEY"
 # If you must, you can paste it here directly, but it's not recommended.
-API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyBNBF01OYF8YBZsaKj6lQEQN1PrlEgvv0s")
+API_KEY = os.environ.get("GOOGLE_API_KEY", "useyourownapikey") # <<< CHANGE THIS TO YOUR API KEY OR SET THE ENV VARIABLE
 
 # The model to use for code generation.
 # gemini-1.5-pro is recommended for high-quality code.

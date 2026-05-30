@@ -672,7 +672,7 @@ def list_solutions():
 
 
 
-# curl.exe -X POST "https://my-api-mneh.onrender.com/generate" -F "file=@PP.zip" -o gen_response.json
+# curl.exe -X POST "https://my-codegen-api2.onrender.com/generate" -F "file=@PP.zip" -o gen_response.json
 
 
 # r = requests.post("https://my-codegen-api2.onrender.com/test", data={"solution_id": "<SOLUTION_ID>"}, files={"test_file": open("test_input.txt","rb")})

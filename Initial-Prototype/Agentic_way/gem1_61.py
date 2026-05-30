@@ -6,7 +6,7 @@ from pathlib import Path
 # --- Configuration (Edit these values) ---
 
 # IMPORTANT: Set your Google API Key as an environment variable for security.
-API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyBNBF01OYF8YBZsaKj6lQEQN1PrlEgvv0s")
+API_KEY = os.environ.get("GOOGLE_API_KEY", "useyourownapikey")
 
 # The model to use for code generation and fixing.
 MODEL_NAME = "gemini-2.5-pro"

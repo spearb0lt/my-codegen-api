@@ -6,8 +6,8 @@ Higher-level automation: (1) optionally upload local program to server to create
 (2) run locally, (3) post results to /test2, (4) download regenerated candidate if server provides one and re-run automatically.
 
 Usage:
-  python test2_automate.py --server https://my-api-mneh.onrender.com --solution-file a.py --test-file pp_input.txt
-  python test2_automate.py --server https://my-api-mneh.onrender.com --solution-id <id> --test-file pp_input.txt
+  python test2_automate.py --server https://my-codegen-api2.onrender.com --solution-file a.py --test-file pp_input.txt
+  python test2_automate.py --server https://my-codegen-api2.onrender.com --solution-id <id> --test-file pp_input.txt
 """
 import argparse, requests, shutil, sys, json, time
 from pathlib import Path

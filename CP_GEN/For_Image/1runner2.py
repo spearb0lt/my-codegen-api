@@ -6,10 +6,10 @@ and only contacts server on error.
 Usage examples:
 
 # Use an existing solution_id on server, provide local test file:
-python test2_automate_post_on_error.py --server https://my-api-mneh.onrender.com --solution-id <ID> --test-file pp_input.txt
+python test2_automate_post_on_error.py --server https://my-codegen-api2.onrender.com --solution-id <ID> --test-file pp_input.txt
 
 # Upload local code + test file in one call (server will store it if you post failures):
-python test2_automate_post_on_error.py --server https://my-api-mneh.onrender.com --solution-file a.py --test-file pp_input.txt
+python test2_automate_post_on_error.py --server https://my-codegen-api2.onrender.com --solution-file a.py --test-file pp_input.txt
 
 """
 import argparse

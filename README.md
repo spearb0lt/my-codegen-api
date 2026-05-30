@@ -75,6 +75,8 @@ These are **upper-medium to hard** competitive programming problems involving gr
 
 The `CP_GEN/` folder contains **reusable client scripts** for interacting with the deployed API. These scripts automate the full workflow: generating solutions, downloading code, running against real test inputs, and triggering server-side regeneration on failure.
 
+> **Note:** Initially, image-based and non-image problems required **separate pipelines** — hence the `For_Image/` and `For_Non_Image/` split in CP_GEN. Later, the production API ([my-codegen-api2](https://github.com/spearb0lt/my-codegen-api2)) was built as a **single multipurpose API** that seamlessly handles both cases. If images are present in the ZIP, the multimodal pipeline activates automatically; if not, it proceeds with text-only prompting. The CP_GEN folders still reflect the original split for historical context and because the client-side usage patterns differ slightly (image problems need URI files in the ZIP).
+
 ### For Problems Without Images (`CP_GEN/For_Non_Image/`)
 
 Use when the problem statement is text-only (no diagrams/figures).
